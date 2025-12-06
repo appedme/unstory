@@ -61,6 +61,10 @@
 	--sidebar-border: hsl(220 13% 91%);
 
 	--sidebar-ring: hsl(217.2 91.2% 59.8%);
+
+	--highlight: oklch(0.852 0.199 91.936);
+
+	--brand: oklch(0.623 0.214 259.815);
 }
 
 .dark {
@@ -101,6 +105,8 @@
 	--sidebar-accent-foreground: hsl(240 4.8% 95.9%);
 	--sidebar-border: hsl(240 3.7% 15.9%);
 	--sidebar-ring: hsl(217.2 91.2% 59.8%);
+	--highlight: oklch(0.852 0.199 91.936);
+	--brand: oklch(0.707 0.165 254.624);
 }
 
 @layer base {
@@ -150,4 +156,6 @@
 	--color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
 	--color-sidebar-border: hsl(var(--sidebar-border));
 	--color-sidebar-ring: hsl(var(--sidebar-ring));
+	--color-brand: var(--brand);
+	--color-highlight: var(--highlight);
 }

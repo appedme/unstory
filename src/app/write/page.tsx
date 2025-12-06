@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Container } from "@/components/layout/Container";
 import { Header } from "@/components/layout/Header";
-import { Editor } from "@/components/editor/Editor";
+import Editor from "@/components/editor/Editor";
 import { Button } from "@/components/ui/button";
 import { useStackApp } from "@stackframe/stack";
 import { useRouter } from "next/navigation";
